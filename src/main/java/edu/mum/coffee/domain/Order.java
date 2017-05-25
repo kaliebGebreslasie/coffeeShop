@@ -41,6 +41,7 @@ public class Order {
 
 	public Person getPerson() {
 		return person;
+		
 	}
 
 	public void setPerson(Person person) {
@@ -88,5 +89,6 @@ public class Order {
 		}
 		orderLines.clear();
 	}
+	
 
 }

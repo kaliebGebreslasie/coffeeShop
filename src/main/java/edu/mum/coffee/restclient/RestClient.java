@@ -12,7 +12,7 @@ import edu.mum.coffee.domain.Product;
 import edu.mum.coffee.domain.ProductType;
 
 public class RestClient {
-	public static final String SERVER_URI = "http://172.17.3.120:8080/";
+	public static final String SERVER_URI = "http://localhost:8080/api/";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 System.out.println("hello world");

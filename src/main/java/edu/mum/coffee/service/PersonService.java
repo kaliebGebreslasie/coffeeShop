@@ -31,5 +31,7 @@ public class PersonService {
 	public void removePerson(Person person) {
 		personRepository.delete(person);
 	}
-
+public List<Person> getAllPerson(){
+	return personRepository.findAll();
+}
 }
